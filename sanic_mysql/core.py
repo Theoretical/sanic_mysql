@@ -1,4 +1,4 @@
-from sanic.log import log
+from sanic.log import logger as log
 from aiomysql import create_pool
 import os
 
